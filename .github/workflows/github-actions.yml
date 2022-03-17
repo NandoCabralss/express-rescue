@@ -22,5 +22,5 @@ jobs:
         run: npm run test 
       - name: Run coverage
         run: npm run coverage
-      - name: Run coverage report
+      - name: Run Coveralls
         run: npm install -g coveralls && npm run coverage:report | coveralls
